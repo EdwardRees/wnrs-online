@@ -18,12 +18,12 @@
 
 ## TODO
 
-[ ] Hook up with Socket for sessions
+- [ ] Hook up with Socket for sessions
 
-    [ ] Generate session numbers
+  - [ ] Generate session numbers
 
-    [ ] Allow multiple users on a single session
+  - [ ] Allow multiple users on a single session
 
-[ ] Admin frontend
+- [ ] Admin frontend
 
-[ ] User frontend differences
+- [ ] User frontend differences
