@@ -1,0 +1,24 @@
+{
+  "name": "were-not-really-strangers",
+  "version": "1.0.0",
+  "description": "Online game of We're Not Really Strangers",
+  "main": "index.js",
+  "repository": "git@github.com:EdwardRees/wnrs-online.git",
+  "author": "Edward Rees",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.17.0"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "concurrently -n \"server,client\" -c \"#ff0000,#00ff00\" -k \"nodemon index.js\" \"npm run start --prefix client\""
+  }
+}
