@@ -18,6 +18,8 @@
 
 ## TODO
 
-- Hook up with Socket for session numbers
+- Hook up with Socket for sessions
+    - Generate session numbers
+    - Allow multiple users on a single session
 - Admin frontend
 - User frontend differences
