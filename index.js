@@ -1,3 +1,4 @@
+// https://www.digitalocean.com/community/tutorials/getting-started-with-node-express-and-postgres-using-sequelize
 const express = require("express");
 
 const app = express();
